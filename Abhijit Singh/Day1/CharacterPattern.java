@@ -1,6 +1,9 @@
+import java.util.Scanner;
+
 public class CharacterPattern {
     public static void main(String[] args) {
-        int height = 4;
+        Scanner scanner = new Scanner(System.in);
+        int height = scanner.nextInt();
         int width = 2 * height - 1;
         int mid = height / 2;
 
@@ -20,5 +23,6 @@ public class CharacterPattern {
             }
             System.out.println();
         }
+        scanner.close();
     }
 }
