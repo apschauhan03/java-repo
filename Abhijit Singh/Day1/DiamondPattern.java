@@ -6,7 +6,7 @@ public class DiamondPattern {
         System.out.print("Enter an integer: ");
         int userInput = scanner.nextInt();
         System.out.print("Enter an character: ");
-        char userInputChar = scanner.next().charAt(0); 
+        char userInputChar = scanner.next().charAt(0);
 
         // Top half
         for (int i = 1; i <= userInput; i++) {
@@ -23,7 +23,7 @@ public class DiamondPattern {
                     System.out.print(userInputChar);
                 }
             }
-            // Right stars 
+            // Right stars
             for (int j = 1; j <= userInput - i; j++) {
                 System.out.print(" ");
             }
